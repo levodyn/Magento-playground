@@ -1,0 +1,58 @@
+[2026-04-16T13:26:36.779985+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2026-04-16T14:25:11.329537+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2026-04-16T14:38:25.437007+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-16T14:38:25.440330+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-16T14:38:32.496621+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T18:52:21.556042+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:15:10.486687+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:16:53.082810+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:25:51.688796+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:30:03.971576+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:31:20.108519+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:33:49.513216+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:38:30.128993+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:39:24.906715+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:51:56.096277+00:00] main.CRITICAL: Impossible to process constructor argument Parameter #0 [ <required> SBrands\Blog\Model\ResourceModel\Post\CollectionFactory $collectionFactory ] of SBrands\Blog\ViewModel\BlogList class [] []
+[2026-04-19T19:51:56.323221+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-19T19:56:48.069130+00:00] main.CRITICAL: Impossible to process constructor argument Parameter #0 [ <required> SBrands\Blog\Model\ResourceModel\Post\CollectionFactory $collectionFactory ] of SBrands\Blog\ViewModel\BlogList class [] []
+[2026-04-19T19:56:48.184260+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:13:15.491648+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:15:38.205490+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:16:15.529633+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:17:17.708361+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:17:50.175024+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:19:26.737181+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:20:12.787692+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:23:53.886512+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:23:54.671206+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:24:19.734218+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:25:00.416097+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:25:46.843479+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:31:04.944187+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:40:34.884908+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:40:38.208327+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:50:10.081184+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:50:16.049834+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:50:18.255772+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:53:14.287672+00:00] main.CRITICAL: Type Error occurred when creating object: SBrands\Blog\Controller\View\Index\Interceptor, SBrands\Blog\Controller\View\Index::__construct(): Argument #3 ($postRepository) must be of type SBrands\Blog\Api\PostRepositoryInterface, SBrands\Blog\Model\PostFactory given, called in /var/www/html/generated/code/SBrands/Blog/Controller/View/Index/Interceptor.php on line 14 [] []
+[2026-04-20T18:53:14.292499+00:00] main.ERROR: Type Error occurred when creating object: SBrands\Blog\Controller\View\Index\Interceptor, SBrands\Blog\Controller\View\Index::__construct(): Argument #3 ($postRepository) must be of type SBrands\Blog\Api\PostRepositoryInterface, SBrands\Blog\Model\PostFactory given, called in /var/www/html/generated/code/SBrands/Blog/Controller/View/Index/Interceptor.php on line 14 [] []
+[2026-04-20T18:55:39.251791+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-20T18:56:38.851648+00:00] main.ERROR: Command "admin:user:list" is not defined.
+
+Did you mean one of these?
+    admin:user:create
+    admin:user:unlock
+    encryption:data:list-re-encryptors
+    info:backups:list
+    info:currency:list
+    info:language:list
+    info:timezone:list
+    inventory:reservation:list-inconsistencies
+    queue:consumers:list
+    setup:db-declaration:generate-whitelist
+    store:website:list
+#0 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('admin:user:list')
+#1 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []

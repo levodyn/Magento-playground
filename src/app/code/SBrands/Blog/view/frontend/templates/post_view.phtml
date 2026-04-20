@@ -1,0 +1,19 @@
+<?php
+/** @var \SBrands\Blog\ViewModel\PostView $viewModel */
+$viewModel = $block->getData('view_model');
+$post = $viewModel->getPost();
+?>
+
+<div class="blog-post-view">
+    <div class="post-content">
+        <?= /* @noEscape */ $post->getContent() ?>
+    </div>
+    <div class="post-meta">
+        <small>Posted on: <?= $block->escapeHtml($post->getCreatedAt()) ?></small>
+    </div>
+    <div class="actions-toolbar">
+        <a href="<?= $block->getUrl('blog') ?>" class="action back">
+            <span>Back to Blog List</span>
+        </a>
+    </div>
+</div>
