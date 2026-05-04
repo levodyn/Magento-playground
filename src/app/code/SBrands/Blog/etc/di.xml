@@ -1,4 +1,20 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="SBrands\Blog\Api\PostRepositoryInterface" type="SBrands\Blog\Model\PostRepository"/>
+
+    <virtualType name="SBrands\Blog\Model\ResourceModel\Post\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">sbrands_blog_post</argument>
+            <argument name="resourceModel" xsi:type="string">SBrands\Blog\Model\ResourceModel\Post</argument>
+            <argument name="idFieldName" xsi:type="string">post_id</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="sbrands_blog_post_listing_data_source" xsi:type="string">SBrands\Blog\Model\ResourceModel\Post\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

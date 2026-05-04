@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SBrands_Blog::blog_manage"
+             title="SBrands Blog"
+             module="SBrands_Blog"
+             sortOrder="10"
+             resource="SBrands_Blog::blog_manage"/>
+
+        <add id="SBrands_Blog::post"
+             title="Manage Posts"
+             module="SBrands_Blog"
+             parent="SBrands_Blog::blog_manage"
+             sortOrder="10"
+             action="sbrands_blog/post/index"
+             resource="SBrands_Blog::post"/>
+    </menu>
+</config>

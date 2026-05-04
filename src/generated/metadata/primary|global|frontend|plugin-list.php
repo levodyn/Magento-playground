@@ -243,14 +243,6 @@
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
       ),
     ),
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
-      ),
-    ),
     'Magento\\Backend\\Model\\Auth\\Session' => 
     array (
       'admin_adobe_ims_backend_auth_session' => 
@@ -684,6 +676,11 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\Catalog\\Plugin\\Block\\Topmenu',
+      ),
+      'sbrands_blog_topmenu' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'SBrands\\Blog\\Plugin\\Topmenu',
       ),
     ),
     'Magento\\Framework\\Mview\\View\\StateInterface' => 
@@ -1159,14 +1156,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
       ),
     ),
     'Magento\\Sales\\Controller\\Order\\Creditmemo' => 
@@ -4202,17 +4191,6 @@
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
       ),
     ),
-    'Magento\\Framework\\UrlInterface' => NULL,
-    'Magento\\Framework\\Url' => NULL,
-    'Magento\\Backend\\Model\\UrlInterface' => NULL,
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
-      ),
-    ),
     'Magento\\Framework\\Session\\SessionManagerInterface' => 
     array (
       'session_checker' => 
@@ -5062,6 +5040,11 @@
         'sortOrder' => 0,
         'instance' => 'Magento\\Catalog\\Plugin\\Block\\Topmenu',
       ),
+      'sbrands_blog_topmenu' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'SBrands\\Blog\\Plugin\\Topmenu',
+      ),
     ),
     'Magento\\Framework\\Mview\\View\\StateInterface' => 
     array (
@@ -5856,14 +5839,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
       ),
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View' => 
@@ -10629,13 +10604,6 @@
         0 => 'invalidateAdvancedPriceIndexerOnImport',
       ),
     ),
-    'Magento\\Backend\\Model\\Url_findFirstAvailableMenu___self' => 
-    array (
-      4 => 
-      array (
-        0 => 'fixDefaultUrl',
-      ),
-    ),
     'Magento\\Framework\\Session\\SessionManagerInterface_start___self' => 
     array (
       1 => 
@@ -11262,6 +11230,7 @@
       1 => 
       array (
         0 => 'catalogTopmenu',
+        1 => 'sbrands_blog_topmenu',
       ),
     ),
     'Magento\\Theme\\Block\\Html\\Topmenu_getIdentities___self' => 
@@ -11938,10 +11907,6 @@
     'Magento\\Framework\\Search\\Request\\Config_get___self' => 
     array (
       2 => 'localRequestDataPlugin',
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch_execute___self' => 
-    array (
-      2 => 'bypass_twofactorauth_testframework',
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View_execute___self' => 
     array (

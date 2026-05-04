@@ -228,14 +228,6 @@
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
       ),
     ),
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
-      ),
-    ),
     'Magento\\Backend\\Model\\Auth\\Session' => 
     array (
       'admin_adobe_ims_backend_auth_session' => 
@@ -488,11 +480,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\Security\\Model\\Plugin\\Auth',
-      ),
-      'delete_tfat_cookie' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\DeleteCookieOnLogout',
       ),
       'pagebuilder_clear_editor_config_cache' => 
       array (
@@ -1259,20 +1246,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
-      ),
-      'verify_admin_adobe_ims_is_enable' => 
-      array (
-        'sortOrder' => 10,
-        'disabled' => false,
-        'instance' => 'Magento\\AdminAdobeImsTwoFactorAuth\\Plugin\\VerifyAdminAdobeImsIsEnable',
       ),
     ),
     'Magento\\Sales\\Controller\\Order\\Creditmemo' => 
@@ -3649,22 +3622,6 @@
         'instance' => 'Magento\\Quote\\Plugin\\SendOrderNotification',
       ),
     ),
-    'Magento\\User\\Block\\User\\Edit\\Tabs' => 
-    array (
-      'add_2fa_tabs' => 
-      array (
-        'sortOrder' => 1,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\AddTabToAdminUserEdit',
-      ),
-    ),
-    'Magento\\User\\Observer\\Backend\\ForceAdminPasswordChangeObserver' => 
-    array (
-      'avoid_2fa_recursion_on_admin_password_change' => 
-      array (
-        'sortOrder' => 1,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\AvoidRecursionOnPasswordChange',
-      ),
-    ),
     'Magento\\Sales\\Model\\ResourceModel\\Order\\Grid\\Collection' => 
     array (
       'orderGridCollectionFilterPlugin' => 
@@ -4547,17 +4504,6 @@
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
       ),
     ),
-    'Magento\\Framework\\UrlInterface' => NULL,
-    'Magento\\Framework\\Url' => NULL,
-    'Magento\\Backend\\Model\\UrlInterface' => NULL,
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
-      ),
-    ),
     'Magento\\Framework\\Session\\SessionManagerInterface' => NULL,
     'Magento\\Framework\\Session\\SessionManager' => NULL,
     'Magento\\Backend\\Model\\Auth\\StorageInterface' => NULL,
@@ -5041,11 +4987,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\Security\\Model\\Plugin\\Auth',
-      ),
-      'delete_tfat_cookie' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\DeleteCookieOnLogout',
       ),
       'pagebuilder_clear_editor_config_cache' => 
       array (
@@ -6103,20 +6044,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
-      ),
-      'verify_admin_adobe_ims_is_enable' => 
-      array (
-        'sortOrder' => 10,
-        'disabled' => false,
-        'instance' => 'Magento\\AdminAdobeImsTwoFactorAuth\\Plugin\\VerifyAdminAdobeImsIsEnable',
       ),
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View' => 
@@ -9190,23 +9117,6 @@
         'instance' => 'Magento\\Quote\\Plugin\\SendOrderNotification',
       ),
     ),
-    'Magento\\Backend\\Block\\Widget\\Tabs' => NULL,
-    'Magento\\User\\Block\\User\\Edit\\Tabs' => 
-    array (
-      'add_2fa_tabs' => 
-      array (
-        'sortOrder' => 1,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\AddTabToAdminUserEdit',
-      ),
-    ),
-    'Magento\\User\\Observer\\Backend\\ForceAdminPasswordChangeObserver' => 
-    array (
-      'avoid_2fa_recursion_on_admin_password_change' => 
-      array (
-        'sortOrder' => 1,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\AvoidRecursionOnPasswordChange',
-      ),
-    ),
     'Magento\\Framework\\Api\\Search\\SearchResultInterface' => NULL,
     'Magento\\Framework\\Api\\SearchResultsInterface' => NULL,
     'Magento\\Framework\\View\\Element\\UiComponent\\DataProvider\\SearchResult' => 
@@ -10333,13 +10243,6 @@
         0 => 'invalidateAdvancedPriceIndexerOnImport',
       ),
     ),
-    'Magento\\Backend\\Model\\Url_findFirstAvailableMenu___self' => 
-    array (
-      4 => 
-      array (
-        0 => 'fixDefaultUrl',
-      ),
-    ),
     'Magento\\Backend\\Model\\Auth\\Session_prolong___self' => 
     array (
       2 => 'admin_adobe_ims_backend_auth_session',
@@ -10708,7 +10611,6 @@
       array (
         0 => 'login_as_customer_admin_logout',
         1 => 'security_admin_sessions_login',
-        2 => 'delete_tfat_cookie',
       ),
     ),
     'Magento\\Backend\\Model\\Auth_login_disable_admin_login_auth' => 
@@ -11670,14 +11572,6 @@
     'Magento\\Framework\\Search\\Request\\Config_get___self' => 
     array (
       2 => 'localRequestDataPlugin',
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch_execute___self' => 
-    array (
-      2 => 'bypass_twofactorauth_testframework',
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch_execute_bypass_twofactorauth_testframework' => 
-    array (
-      2 => 'verify_admin_adobe_ims_is_enable',
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View_execute___self' => 
     array (
@@ -14136,17 +14030,6 @@
       array (
         0 => 'beforeSendOrderNotification',
       ),
-    ),
-    'Magento\\User\\Block\\User\\Edit\\Tabs_toHtml___self' => 
-    array (
-      1 => 
-      array (
-        0 => 'add_2fa_tabs',
-      ),
-    ),
-    'Magento\\User\\Observer\\Backend\\ForceAdminPasswordChangeObserver_execute___self' => 
-    array (
-      2 => 'avoid_2fa_recursion_on_admin_password_change',
     ),
     'Magento\\Framework\\View\\Element\\UiComponent\\DataProvider\\SearchResult_getCurPage___self' => 
     array (

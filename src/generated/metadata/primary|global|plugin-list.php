@@ -213,14 +213,6 @@
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
       ),
     ),
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
-      ),
-    ),
     'Magento\\Backend\\Model\\Auth\\Session' => 
     array (
       'admin_adobe_ims_backend_auth_session' => 
@@ -1109,14 +1101,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
       ),
     ),
     'Magento\\Sales\\Controller\\Order\\Creditmemo' => 
@@ -3791,12 +3775,6 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
-    'Magento\\TwoFactorAuth\\Api\\ProviderInterface' => NULL,
-    'Magento\\TwoFactorAuth\\Model\\Provider' => NULL,
-    'Magento\\TwoFactorAuth\\Model\\Provider\\Google' => NULL,
-    'Magento\\TwoFactorAuth\\Model\\Provider\\DuoSecurity' => NULL,
-    'Magento\\TwoFactorAuth\\Model\\Provider\\Authy' => NULL,
-    'Magento\\TwoFactorAuth\\Model\\Provider\\U2fKey' => NULL,
     'Magento\\Payment\\Model\\Config\\Data' => NULL,
     'Magento\\Framework\\Config\\GenericSchemaLocator' => NULL,
     'Magento\\Payment\\Gateway\\ErrorMapper\\VirtualSchemaLocator' => NULL,
@@ -4964,6 +4942,14 @@
     'BraintreeLpmAuthorizeRequest' => NULL,
     'BraintreeLpmAuthorizationHandler' => NULL,
     'BraintreeLpmSaleRequest' => NULL,
+    'SBrands\\Blog\\Model\\ResourceModel\\Post\\Grid\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'Magento\\Framework\\DB\\Adapter\\AdapterInterface' => 
     array (
       'execute_commit_callbacks' => 
@@ -5218,17 +5204,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\AdvancedPricingImportExport\\Model\\Indexer\\Product\\Price\\Plugin\\Import',
-      ),
-    ),
-    'Magento\\Framework\\UrlInterface' => NULL,
-    'Magento\\Framework\\Url' => NULL,
-    'Magento\\Backend\\Model\\UrlInterface' => NULL,
-    'Magento\\Backend\\Model\\Url' => 
-    array (
-      'fixDefaultUrl' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\Plugin\\FirstAvailableMenu',
       ),
     ),
     'Magento\\Backend\\Model\\Auth\\StorageInterface' => NULL,
@@ -6443,14 +6418,6 @@
       array (
         'sortOrder' => 0,
         'instance' => 'Magento\\CatalogGraphQl\\Plugin\\Search\\RequestBuilderPlugin',
-      ),
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch' => 
-    array (
-      'bypass_twofactorauth_testframework' => 
-      array (
-        'sortOrder' => 0,
-        'instance' => 'Magento\\TwoFactorAuth\\TestFramework\\Plugin\\BypassTwoFactorAuth',
       ),
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View' => 
@@ -10071,6 +10038,13 @@
         0 => 'magpay_payments_model_adapter',
       ),
     ),
+    'SBrands\\Blog\\Model\\ResourceModel\\Post\\Grid\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
     'Magento\\Framework\\DB\\Adapter\\AdapterInterface_commit___self' => 
     array (
       4 => 
@@ -10306,13 +10280,6 @@
       4 => 
       array (
         0 => 'invalidateAdvancedPriceIndexerOnImport',
-      ),
-    ),
-    'Magento\\Backend\\Model\\Url_findFirstAvailableMenu___self' => 
-    array (
-      4 => 
-      array (
-        0 => 'fixDefaultUrl',
       ),
     ),
     'Magento\\Backend\\Model\\Auth\\Session_prolong___self' => 
@@ -11337,10 +11304,6 @@
     'Magento\\Framework\\Search\\Request\\Config_get___self' => 
     array (
       2 => 'localRequestDataPlugin',
-    ),
-    'Magento\\TwoFactorAuth\\Observer\\ControllerActionPredispatch_execute___self' => 
-    array (
-      2 => 'bypass_twofactorauth_testframework',
     ),
     'Magento\\Sales\\Controller\\AbstractController\\View_execute___self' => 
     array (

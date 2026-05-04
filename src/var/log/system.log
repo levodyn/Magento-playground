@@ -56,3 +56,78 @@ Did you mean one of these?
 #2 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #3 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
 #4 {main} [] []
+[2026-04-30T13:40:34.454306+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-30T13:41:16.521898+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-30T13:46:58.604597+00:00] main.ERROR: Plugin class SBrands\Blog\Plugin\Topmenu doesn't exist
+#0 /var/www/html/vendor/magento/framework/Interception/PluginList/PluginList.php(148): Magento\Framework\Interception\PluginListGenerator->inheritPlugins('Magento\\Theme\\B...', Array, Array, Array)
+#1 /var/www/html/vendor/magento/framework/Interception/PluginList/PluginList.php(252): Magento\Framework\Interception\PluginList\PluginList->_inheritPlugins('Magento\\Theme\\B...')
+#2 /var/www/html/setup/src/Magento/Setup/Module/Di/Code/Generator/PluginList.php(27): Magento\Framework\Interception\PluginList\PluginList->_loadScopedData()
+#3 /var/www/html/setup/src/Magento/Setup/Module/Di/Code/Generator/InterceptionConfigurationBuilder.php(151): Magento\Setup\Module\Di\Code\Generator\PluginList->getPluginsConfig()
+#4 /var/www/html/setup/src/Magento/Setup/Module/Di/Code/Generator/InterceptionConfigurationBuilder.php(104): Magento\Setup\Module\Di\Code\Generator\InterceptionConfigurationBuilder->getPluginsList(Array)
+#5 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Operation/Interception.php(99): Magento\Setup\Module\Di\Code\Generator\InterceptionConfigurationBuilder->getInterceptionConfiguration(Array)
+#6 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\Interception->doOperation()
+#7 /var/www/html/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#8 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2026-04-30T13:50:32.983579+00:00] main.CRITICAL: Plugin class SBrands\Blog\Plugin\Topmenu doesn't exist [] []
+[2026-04-30T13:50:33.231475+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-30T13:55:32.189883+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-30T13:55:36.873939+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-04-30T14:00:29.435334+00:00] main.ERROR: The "--admin-username" option does not exist.
+#0 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\Component\Console\Input\ArgvInput->addLongOption('admin-username', 'admin')
+#1 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--admin-usernam...')
+#2 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--admin-usernam...', true)
+#3 /var/www/html/vendor/symfony/console/Input/Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 /var/www/html/vendor/symfony/console/Command/Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\AdminUserCreateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2026-04-30T14:01:27.328608+00:00] main.ERROR: The "--admin-username" option does not exist.
+#0 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\Component\Console\Input\ArgvInput->addLongOption('admin-username', 'admin')
+#1 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--admin-usernam...')
+#2 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--admin-usernam...', true)
+#3 /var/www/html/vendor/symfony/console/Input/Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 /var/www/html/vendor/symfony/console/Command/Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\AdminUserCreateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2026-04-30T14:01:49.969941+00:00] main.ERROR: The "--admin-username" option does not exist.
+#0 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\Component\Console\Input\ArgvInput->addLongOption('admin-username', 'admin')
+#1 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--admin-usernam...')
+#2 /var/www/html/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--admin-usernam...', true)
+#3 /var/www/html/vendor/symfony/console/Input/Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 /var/www/html/vendor/symfony/console/Command/Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\AdminUserCreateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2026-04-30T14:20:59.070106+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-05-04T19:08:00.900803+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-05-04T19:08:14.727160+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2026-05-04T19:42:54.258134+00:00] main.ERROR: The following requested cache types are not supported: 'ui_component'.
+Supported types: config, layout, block_html, collections, reflection, db_ddl, compiled_config, eav, customer_notification, config_integration, config_integration_api, graphql_query_resolver_result, full_page, config_webservice, translate
+#0 /var/www/html/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(63): Magento\Backend\Console\Command\AbstractCacheManageCommand->getRequestedTypes(Object(Symfony\Component\Console\Input\ArgvInput))
+#1 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent('run', Array)
+#4 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(23): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins('run', Array, Array)
+#6 /var/www/html/vendor/symfony/console/Application.php(1098): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Backend\Console\Command\CacheCleanCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []

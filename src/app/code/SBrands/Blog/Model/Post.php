@@ -17,6 +17,7 @@ class Post extends AbstractModel implements IdentityInterface
     protected function _construct(): void
     {
         $this->_init(\SBrands\Blog\Model\ResourceModel\Post::class);
+        $this->setIdFieldName('post_id');
     }
 
     /**
